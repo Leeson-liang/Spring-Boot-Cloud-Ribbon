@@ -7,3 +7,4 @@ Spring Cloud自带ribbon依赖，如果不是SpringCloud项目需要在项目中
 user-server:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #随机策略
+    启动一个MovieRibbon服务，启动多个不同端口的user-server服务，
